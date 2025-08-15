@@ -53,8 +53,7 @@
                         "2001:4860:4860::8844",
                         "2001:4860:4860::8888"
                     ]
-                },
-                "detour": "🎯 全球直连"
+                }
             },
             {
                 "type": "https",
@@ -123,6 +122,7 @@
             "strict_route": true,
             "endpoint_independent_nat": false,
             "stack": "gvisor",
+            "udp_timeout": "10m",
             "platform": {
                 "http_proxy": {
                     "enabled": true,
